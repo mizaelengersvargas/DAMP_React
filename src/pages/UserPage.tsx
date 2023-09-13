@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Filme } from '../components/Filme';
 import { getDiscoverMovies } from '../services/moviedb';
 
 export function UserPage() {
